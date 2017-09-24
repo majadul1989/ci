@@ -1,0 +1,466 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+    background: #fff !important;
+}
+
+.canvasMenuLeft {
+    background: #000 none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    width: 70%;
+    color: #fff;
+    left: 0;
+ 	transform: translate(-100%, 0);
+	/*transition: all .5s ease 0s;*/
+	overflow: auto;
+}
+
+.dropdown_menu {
+    width: 100%;
+    background: #f00;
+    height: 200px;
+    z-index: 99;
+    margin-top: 38px;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+}
+
+.warrper{
+	margin: 0;
+    padding: 0;
+}
+
+.toggle_Right.btn.btn-primary {
+    float: right;
+}
+
+.toggle_Left.btn.btn-primary {
+    float: left;
+}
+.warrper h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.funy {
+    margin: 0 !important;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 45px;
+}
+
+.canvasMenuRight ul, .canvasMenuLeft ul  {
+    margin: 0;
+    padding: 0;
+}
+
+.canvasMenuRight ul li, .canvasMenuLeft ul li  {
+	list-style: none;
+}
+
+.image {
+    float: left;
+    padding: 10px 5px 10px 10px;
+}
+
+.username {
+    float: left;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.cartIcon {
+    float: left;
+    padding: 20px 8px;
+}
+
+.cartcount {
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.dash {
+    border-top: 1px solid #ccc;
+    float: left;
+    padding: 5px 15px;
+    width: 100%;
+}
+
+.dash a{
+	color: #fff ;
+}
+
+.logout {
+    background-color: #f00;
+    font-weight: bold;
+}
+
+/*============================*/
+/*Left Side style*/
+.imagel {
+    float: left;
+    height: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.imagel img {
+    height: 100%;
+    padding: 11px;
+    width: 50%;
+}
+.fontSize {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    color: #000;
+    float: right;
+    font-size: 23px;
+    height: 30px;
+    margin-right: 8px;
+    padding: 5px 7px;
+    text-align: center;
+    width: 28px;
+    cursor: pointer;
+    box-shadow: 0 2px 0 #a8a8a8;
+}
+
+.clickBtn {
+    background-color: #e78733;
+    float: left;
+    height: 40px;
+    padding: 5px 0 0 11px;
+    width: 100%;
+}
+
+.clickBtn h4{
+float: left;
+}
+
+.clickBtn img {
+    float: left;
+    height: 30px;
+    margin-right: 5px;
+    width: 30px;
+}
+
+.clickToggle {
+    background-color: #333333;
+    float: left;
+    width: 100%;
+}
+
+.clickToggle .text {
+    border: medium none;
+    border-radius: 5px 0 0 5px;
+    color: #333;
+    font-size: 15px;
+    height: 39px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -18px !important;
+    padding: 11px;
+}
+.clickToggle form {
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+.search {
+    color: #333;
+    float: left;
+    height: 20px;
+    margin-top: -8px;
+    padding: 0;
+    text-align: center;
+}
+
+.submit {
+    background-color: #fff;
+    border: medium none;
+    border-radius: 0 5px 5px 0;
+    font-size: 21px;
+    height: 39px;
+    margin-left: -5px;
+    text-align: center;
+    width: 34px;
+}
+
+.submit:hover {
+    background-color: #f5f5f5;
+    border: medium none;
+    border-radius: 0 5px 5px 0;
+    font-size: 21px;
+    height: 39px;
+    margin-left: -5px;
+    text-align: center;
+    width: 34px;
+}
+.clickToggle {
+    float: left;
+}
+
+.clickToggle ul li {
+    background-color: #333;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+
+.clickToggle img {
+    float: left;
+    width: 30px;
+}
+
+.clickToggle h4 {
+    margin: 0;
+    padding: 0 0 0 40px;
+}
+
+.clickToggle ul li a {
+    color: #fff;
+    display: block;
+}
+
+.rightMenuIcon {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.clickToggle form {
+    background-color: #000;
+    float: left;
+    width: 100%;
+}
+
+.clickToggle ul {
+    width: 100%;
+}
+.local {
+    background-color: #333;
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
+.dropdownClick .fa-caret-down {
+    float: right;
+    font-size: 20px;
+}
+
+.local a{
+     color: #fff;
+     display: block;
+}
+
+.dropdownClick .local{
+    color: #fff;
+     display: block;
+
+}
+
+.linkSub {
+    background-color:#262626; 
+    color:#fff;
+    display: block;
+    float: left;
+    padding: 10px 33px;
+    width: 100%;
+}
+
+
+.mainDiv {
+    margin-top: 76px;
+}
+
+.porductPage {
+    background-color: #fff;
+}
+
+.padding {
+    padding: 0;
+}
+
+.query {
+    width: 100%;
+}
+
+
+.category span {
+    margin-left: 5px;
+}
+
+/*.category ul li a {
+    display: block;
+}*/
+
+.categories img {
+    width: 25px;
+}
+
+.category ul {
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.categories ul li ul {
+    padding: 0;
+    margin: 0 12px;
+    border-left: 1px dotted #ccc;
+}
+
+
+.categories ul li {
+    list-style: none;
+}
+
+.categories ul li ul li::before{ 
+    content: "......";
+    font-size: 10px;
+    color: #ccc;
+}
+
+.fileFloder {
+    margin-left: 25px !important;
+}
+
+.flieDoc{
+    margin-left: 25px !important;
+}
+
+.flieDoc li {
+    padding:3px 0;
+}
+
+.singlePorduct {
+    box-shadow: 0 0 3px;
+}
+
+.singlePorductDiv {
+    padding: 4px;
+}
+
+.singlePorductDiv img {
+    width: 100%;
+    height: 230px;
+}
+
+.store  {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 121px;
+    background-color: #f2f2f2;
+    transition: all 1.5s ease 0s;
+    width: 174px;
+    padding: 5px;
+    max-height: 75%;
+    min-height: 5%;
+    overflow: auto;
+} 
+
+.store h2{
+    width: 100%;
+    display: block;
+}
+ 
+.store .striped td, .store .striped th {
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+.striped input {
+    width: 26px;
+}
+
+.striped img {
+    width: 27px;
+    height: 26px;
+}
+
+.footer {
+    border-top: 1px solid #000;
+    padding: 5px;
+}
+
+#mySignupForm .close, #myLoginForm .close {
+    position: absolute;
+    right: 28px;
+    z-index: 99;
+    top: 29px;
+    color: #fff;
+    opacity: 1;
+}
+
+#mySignupForm  .input-group, #myLoginForm .input-group {
+    margin: 8px auto;
+}
+
+
+.rating > span:hover:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+
+.absulate{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f00;
+}
+
+.add {
+    font-size: 40px;
+    border: 2px solid #f2f2ff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.file {
+    width: 53px;
+    /*position: absolute;*/
+    top: 0;
+    height: 72px;
+    /*opacity: 0;*/
+}
+
+.margin_top {
+    margin-bottom: 5px;
+}
+
+.margin_top img {
+    width: 70%;
+}
+
+.edit .close {
+    top: 28px;
+    position: absolute;
+    right: 29px;
+    z-index: 999;
+    color: #fff;
+}
+
+.margin-top {
+    margin: 10px 0;
+}
